@@ -1,4 +1,5 @@
 body {
+  /* This is for diagonally 2 or 3 color merging background!! */
   background-image: linear-gradient(30deg, #595cff , #c6f8ff);
   background-image: linear-gradient(-30deg, #595cff , #c6f8ff);
 }
@@ -82,5 +83,23 @@ p {
 
 .text {
   font-size: 40px;
+  margin-top: 10px;
+}
+
+.Links-title {
+  font-family: 'Indie Flower', Arial;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+}
+
+.Links {
+  font-size: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+.pi {
   margin-top: 10px;
 }
